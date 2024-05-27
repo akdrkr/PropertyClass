@@ -15,18 +15,18 @@ Use the setValue() method to set the value of a property.
 Use the getValue() method to retrieve the value of a property.
 Optionally, use the template getter method get<>() for type-safe value retrieval.
 
-  #include "Property.hpp"
-  #include <iostream>
-  
-  int main() {
-      // Create a Property object
-      Property prop(1, "example_property", 0, 4);
-  
-      // Set the value of the property
-      prop.setValue(42);
-  
-      // Print the value of the property
-       std::cout << prop << std::endl;
-  
-      return 0;
-  }
+    #include "Property.hpp"
+    #include <iostream>
+    
+    int main() {
+        // Create a Property object
+        Property prop(1, "example_property", 0, 4);
+    
+        // Set the value of the property
+        prop.setValue(42);
+    
+        // Print the value of the property
+         std::cout << prop << std::endl;
+    
+        return 0;
+    }
